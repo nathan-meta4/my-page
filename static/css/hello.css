@@ -1,0 +1,71 @@
+#MY_TABLE {
+    position: relative;
+    /* 相對於銀幕 內的位置 */
+    background-color: wheat;
+    width: 800px;
+    height: 400px;
+}
+#MY_TABLE > div {
+    position: absolute;
+    
+    /* 相對於My table 內的位置 */
+    background-color: pink;
+    border: 2px solid goldenrod;
+    width: 25px;
+    height: 25px;
+}
+#e001 { top: 0px; left: 10px; }
+#e002 { top: 0px; left: 520px; }
+#e003 { top: 30px; left: 10px; }
+#e004 { top: 30px; left: 40px; }
+#e005 { top: 30px; left: 370px; }
+#e006 { top: 30px; left: 400px; }
+#e007 { top: 30px; left: 430px; }
+#e008 { top: 30px; left: 460px; }
+#e009 { top: 30px; left: 490px; }
+#e010 { top: 30px; left: 520px; }
+#e011 { top: 60px; left: 10px; }
+#e012 { top: 60px; left: 40px; }
+#e013 { top: 60px; left: 370px; }
+#e014 { top: 60px; left: 400px; }
+#e015 { top: 60px; left: 430px; }
+#e016 { top: 60px; left: 460px; }
+#e017 { top: 60px; left: 490px; }
+#e018 { top: 60px; left: 520px; }
+#e019 { top: 90px; left: 10px; }
+#e020 { top: 90px; left: 40px; }
+#e021 { top: 90px; left: 70px; }
+#e022 { top: 90px; left: 100px; }
+#e023 { top: 90px; left: 130px; }
+#e024 { top: 90px; left: 160px; }
+#e025 { top: 90px; left: 190px; }
+#e026 { top: 90px; left: 220px; }
+#e027 { top: 90px; left: 250px; }
+#e028 { top: 90px; left: 280px; }
+#e029 { top: 90px; left: 310px; }
+#e030 { top: 90px; left: 340px; }
+#e031 { top: 90px; left: 370px; }
+#e032 { top: 90px; left: 400px; }
+#e033 { top: 90px; left: 430px; }
+#e034 { top: 90px; left: 460px; }
+#e035 { top: 90px; left: 490px; }
+#e036 { top: 90px; left: 520px; }
+#e037 { top:120px; left: 10px; }
+#e038 { top:120px; left: 40px; }
+#e039 { top:120px; left: 70px; }
+#e040 { top:120px; left: 100px; }
+#e041 { top:120px; left: 130px; }
+#e042 { top:120px; left: 160px; }
+#e043 { top:120px; left: 190px; }
+#e044 { top:120px; left: 220px; }
+#e045 { top:120px; left: 250px; }
+#e046 { top:120px; left: 280px; }
+#e047 { top:120px; left: 310px; }
+#e048 { top:120px; left: 340px; }
+#e049 { top:120px; left: 370px; }
+#e050 { top:120px; left: 400px; }
+#e051 { top:120px; left: 430px; }
+#e052 { top:120px; left: 460px; }
+#e053 { top:120px; left: 490px; }
+#e054 { top:120px; left: 520px; }
+
