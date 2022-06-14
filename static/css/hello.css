@@ -1,25 +1,40 @@
 #MY_TABLE {
     position: relative;
-    /* 相對於銀幕 內的位置 */
     background-color: wheat;
     width: 800px;
     height: 400px;
+    border: 1px solid red;
 }
 #MY_TABLE > div {
     position: absolute;
-    
-    /* 相對於My table 內的位置 */
-
     border: 2px solid goldenrod;
     width: 35px;
     height: 35px;
 }
-body { background-color: lightblue; }
+#MY_TABLE > div > div {
+    font-size:12px;
+    text-align: center;
+}
+#MY_TABLE > div > div:nth-child(1) {
+    /*border: 2px solid red;*/
+    margin:2px;
+    
+} 
+body { background-color: rgb(118, 166, 182); }
 .NonMetals {background-color:teal;}
 .Inert_gas {background-color: seagreen;}
 .Metalloid {background-color:deepskyblue ;}
 .Poor_metal{background-color:cyan;}
-#MY_TABLE > div:hover {background-color:yellow;}
+.Transition_metal{background-color:chartreuse ;}
+.Alkaline_earth_metal{background-color: gold;}
+.Alkali_metal{background-color:crimson;}
+.Lathanide_element{background-color:lightpink;}
+.Actinide{background-color: lightseagreen;}
+.no{background-color: darkgrey;}
+#MY_TABLE > div:hover 
+{background-color:yellow;font-size:20px}
+
+
 #e001 { top:   0px; left:  10px; }
 #e002 { top:   0px; left: 690px; }
 #e003 { top:  40px; left:  10px; }
