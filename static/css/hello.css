@@ -20,6 +20,11 @@
     margin:2px;
     
 } 
+#MY_TABLE > div > div > span:nth-child(2){
+    position: absolute;
+    right: 1px;
+    
+}
 body { background-color: rgb(118, 166, 182); }
 .NonMetals {background-color:teal;}
 .Inert_gas {background-color: seagreen;}
