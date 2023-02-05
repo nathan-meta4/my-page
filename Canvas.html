@@ -1,11 +1,69 @@
-<canvas id="Canvas" width="480" height="180"
-style="background-color: gray; border: 5px;">
-</canvas>
-<figure>
-    <img src=" Apple10th. png" width="300"  height="360 " />
-    <p>
-        蘋果十周年<br>
-        要買要快!
-        商品全面8折!
-    </p>
-</figure>
+<!DOCTYPE html>
+<html>
+<style>
+#B {
+	background: green;
+    color: yellow;
+}
+h2{
+    background-color:rgb(255, 183, 0)
+  }
+table, th, td {
+    
+    text-align: left;
+  border:1px solid black;
+}
+td {
+    color: blue;
+    
+}
+td:hover{background-color:yellow ;}
+th:hover{background-color:yellow ;}
+tr:nth-child(1) {
+  color: green;
+  
+}
+td:nth-col {
+  color: orange;
+}
+ul.pagination {
+    display: inline-block;
+    padding: 10;
+    margin: 10;
+    background-color: aqua;
+    
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+</style>
+<body>
+
+<button onclick="myFunction('#A95')">A</button>
+<button onclick="myFunction('#B')">B</button>
+<button onclick="myFunction('#C')">C</button>
+<button onclick="myFunction('#D')">D</button>
+
+<div id="A95">aa...</div>
+<div id="B">BB...</div>
+<div id="C">CC...</div>
+<div id="D">DD...</div>
+
+<script>
+function myFunction(x) {
+  ["#A95","#B","#C","#D"].map( n=> {
+	var result = (x!=n)? "none" : "block"  
+    document.querySelector(n).style.display = result;
+    })
+}
+</script>
+
+</body>
+</html>
